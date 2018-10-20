@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A first test post!"
+title:  "Intro Info about Jekyll!"
 date:   2018-10-05 22:38:43 +0100
 categories: personal
 ---
