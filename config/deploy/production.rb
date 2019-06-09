@@ -61,5 +61,5 @@
 #   }
 
 # Define server(s)
-server "178.128.173.170", user: "deploy", roles: %w[app]
+server "178.128.173.170", user: "deploy", roles: %w[deploy]
 

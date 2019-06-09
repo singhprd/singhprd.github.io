@@ -10,6 +10,8 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
+    capistrano-bundler (1.5.0)
+      capistrano (~> 3.1)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
@@ -80,6 +82,7 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano (~> 3.11)
+  capistrano-bundler
   jekyll (~> 3.8.4)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)

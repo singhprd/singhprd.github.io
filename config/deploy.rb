@@ -48,10 +48,10 @@ set :repo_url, 'git@github.com:singhprd/petesingh.io.git'
 set :format, :pretty
 namespace :deploy do
   task :update_jekyll do
-    on roles(:app) do
+    on roles(:deploy) do
       within "#{deploy_to}/current" do
-      	execute :bundle, "install"
-      	execute :jekyll, "build"
+        execute "cd /home/deploy/petesingh.io/current && /home/deploy/.rbenv/shims/bundle"
+      	execute "cd /home/deploy/petesingh.io/current && /home/deploy/.rbenv/shims/jekyll build"
       end
     end
   end
