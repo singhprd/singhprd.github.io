@@ -5,16 +5,18 @@ date:   2018-10-20 12:40:00 +0100
 categories: personal
 ---
 
-Hello, world.
-My name is Pete and I have created a website.
+Hello 👋
+My name is Peter and I have created a website.
 I'm not sure why.
 
-### Some things:
+### This website:
 
+- Is an ordinary Jekyll static site
+- Hosted on a Digital ocean droplet
+- Uses an nginx web server
+- LetsEncrypt for SSL certificates
+- And Capistrano to deploy
 
-Ruby, Rails.
-
-Alfred aficionado.
 
 💻🎒🎩
 
